@@ -17,9 +17,11 @@ no_index:
   directory:
     - html
     - inc
+  package:
+    - RT::Ticket
 requires:
   RT: 3.8.3
   perl: 5.8.3
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
